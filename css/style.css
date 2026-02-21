@@ -34,7 +34,7 @@ header {
   font-family: Roboto;
   font-weight: 700;
   font-style: Bold;
-  font-size: 13.55px;
+  font-size: 0.846875rem;
   line-height: 108%;
   letter-spacing: -3%;
   color: #0e0e0e;
@@ -50,7 +50,7 @@ header {
   font-family: 'Source Sans 3';
   font-weight: 600;
   font-style: SemiBold;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 100%;
   letter-spacing: 0%;
   color: #090909;
@@ -238,7 +238,8 @@ header {
   margin-bottom: 1rem;
 }
 
-.post-content p {
+.post-content p,
+.intro p {
   margin-bottom: 1rem;
   font-family: 'Source Sans 3';
   font-weight: 400;
@@ -273,7 +274,74 @@ header {
   text-align: center;
 }
 
-.photo img {
+/* ##################################
+   #        About.html              #
+   ################################## */
+
+.intro-photo img {
   width: 11.375rem;
   margin-bottom: 1.6875rem;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 2.14rem;
+    height: 2.14rem;
+  }
+  header {
+    height: 5.1875rem;
+  }
+  .post-hero {
+    height: 30.5rem;
+    background-position: center 70%;
+  }
+  .sitename a {
+    font-size: 1.25rem;
+    margin-left: 0.375rem;
+  }
+  .nav-links a {
+    font-size: 1rem;
+  }
+  .post-hero-date {
+    font-size: 1rem;
+  }
+  .post-hero-title {
+    font-size: 2.5rem;
+  }
+  .post-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.625rem;
+    row-gap: 2.875rem;
+    padding: 3.3125rem;
+  }
+  .post-date {
+    font-size: 1rem;
+  }
+  .post-title {
+    font-size: 2.25rem;
+  }
+  .post-content-img {
+    margin-left: -5%;
+  }
+  .post-content img {
+    width: 110%;
+    height: 30.5rem;
+  }
+  .post {
+    padding: 71px 120px;
+    background-color: #fafafa;
+  }
+  .intro {
+    display: flex;
+    gap: 33px;
+    background-color: #fafafa;
+    padding: 90px 53px 10px;
+  }
+  .recent {
+    background-color: #fafafa;
+  }
+  .post-list {
+    background-color: #fafafa;
+  }
 }
