@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ##################################
+   #           Header           #
+   ################################## */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.125rem 1.25rem;
+  height: 3.6875rem;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 1.4475rem;
+  height: 1.4475rem;
+}
+
+.sitename a {
+  margin-left: 0.25rem;
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 13.55px;
+  line-height: 108%;
+  letter-spacing: -3%;
+  color: #0e0e0e;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-family: 'Source Sans 3';
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #090909;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ##################################
+   #           Hero           #
+   ################################## */
+
+.post-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 0.5rem;
+  height: 18.3125rem;
+  padding: 1.5625rem 1.25rem;
+  background-image: url('../images/article-image-hero.png');
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.post-hero-date {
+  font-family: 'Source Sans 3';
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.post-hero-title {
+  font-family: 'Source Sans 3';
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: -3%;
+  color: white;
+}
+
+.post-hero-title a {
+  color: white;
+  text-decoration: none;
+}
+
+.post-hero-title a:hover {
+  text-decoration: underline;
+}
+
+.post-hero-excerpt {
+  font-family: 'Source Sans 3';
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0%;
+  color: white;
+}
+
+/* ##################################
+   #           Article           #
+   ################################## */
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5625rem;
+  padding: 2rem 1.25rem 2.125rem;
+}
+
+.post-card-feature {
+  margin-bottom: 0.875rem;
+}
+
+.post-card-feature img {
+  width: 100%;
+  object-fit: cover;
+  height: 14.5rem;
+}
+
+.post-card-time {
+  margin-bottom: 0.5625rem;
+  font-family: 'Source Sans 3';
+  font-weight: 400;
+  font-size: 14.17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.post-card-title {
+  margin-bottom: 0.5625rem;
+  font-family: 'Source Sans 3';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 108%;
+  letter-spacing: 0%;
+  color: #141414;
+}
+
+.post-card-excerpt {
+  color: #505050;
+  font-family: 'Source Sans 3';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+.viewmore {
+  margin-bottom: 2.6875rem;
+  text-align: center;
+}
+
+.viewmore a {
+  font-family: 'Source Sans 3';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: #000000;
+}
+
+/* ##################################
+   #           Footer               #
+   ################################## */
+
+.footer {
+  height: 6.5625rem;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-name {
+  font-family: 'Source Sans 3';
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 108%;
+  letter-spacing: -3%;
+  text-align: center;
+  color: #ececec;
+}
+
+.footer-copyright {
+  font-family: 'Source Sans 3';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #d7d7d7;
+}
+
+/* ##################################
+   #        Journey.html   Post     #
+   ################################## */
+
+.post {
+  padding: 2rem 1.25rem;
+}
+
+.post-date {
+  font-family: 'Source Sans 3';
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #151515;
+  margin-bottom: 1rem;
+}
+
+.post-title {
+  font-family: 'Source Sans 3';
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 108%;
+  letter-spacing: -3%;
+  color: #151515;
+  margin-bottom: 1rem;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
+  font-family: 'Source Sans 3';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #151515;
+}
+
+.post-content h2 {
+  margin-bottom: 1rem;
+  font-family: 'Source Sans 3';
+  font-weight: 700;
+  font-size: 16px;
+  color: #151515;
+}
+
+.post-content img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 80%;
+  height: 14.5rem;
+  border-radius: 3px;
+}
+
+.recent {
+  font-family: 'Source Sans 3';
+  font-weight: 700;
+  font-size: 16px;
+  color: #151515;
+  text-align: center;
+}
+
+.photo img {
+  width: 11.375rem;
+  margin-bottom: 1.6875rem;
+}
